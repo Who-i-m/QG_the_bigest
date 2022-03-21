@@ -24,8 +24,8 @@ int main(){
 	
 	TraverseList(L,&Visit);//遍历链表并输出显示
 	
-//	printf("\n判断链表是否为循环链表：\n");
-//	IsLoopList(L);//判断 是否为循环链表 
+	printf("\n判断链表是否为循环链表：\n");
+	IsLoopList(L);//判断 是否为循环链表 
 	 
 	ElemType e;
 	printf("输入你想要搜索的数字在链表中的第一次出现的位置 ："); 
